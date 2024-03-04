@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox", "MindBox\MindBox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox_nUnitTests", "MindBox_nUnitTests\MindBox_nUnitTests.csproj", "{0CB466F4-AB2E-448C-8688-1A5EE9C580E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{4774604E-6F9E-46E7-BFC9-B0DFA0E80EF9}"
+	ProjectSection(SolutionItems) = preProject
+		BDscript.sql = BDscript.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
