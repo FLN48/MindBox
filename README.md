@@ -4,3 +4,4 @@
 * (решил добавить крос.плот. Логгер)
 
 * Unit  https://github.com/FLN48/MindBox/blob/main/MindBox_nUnitTests/MindBoxTests.cs
+* БД https://github.com/FLN48/MindBox/blob/main/BDscript.sql
