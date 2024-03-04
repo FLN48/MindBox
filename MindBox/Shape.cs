@@ -1,4 +1,4 @@
-﻿namespace MindBox.Shape
+namespace MindBox.Shape
 {
     public abstract class ShapeCommon
     {

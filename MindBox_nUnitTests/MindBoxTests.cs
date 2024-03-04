@@ -17,7 +17,7 @@ namespace MindBox_nUnitTests
             newLogger.LoggerMessage += logMessage;
             newLogger.LoggerException += logException;
 
-            ShapeCommon shape = new Circle(newLogger, "Окружность", _in);
+            ShapeCommon shape = new Circle(newLogger, "СњРєСЂСѓР¶РЅРѕСЃС‚СЊ", _in);
             double result = shape.calcSquare();
             Assert.AreEqual(_out, result);
         }
@@ -38,7 +38,7 @@ namespace MindBox_nUnitTests
             newLogger.LoggerMessage += logMessage;
             newLogger.LoggerException += logException;
 
-            ShapeCommon shape = new Triangle(newLogger,"Треугольник",3,4,5);
+            ShapeCommon shape = new Triangle(newLogger,"вЂњСЂРµСѓРіРѕР»СЊРЅРёРє",3,4,5);
             double result = shape.calcSquare();
             Assert.AreEqual(6, result);
         }
